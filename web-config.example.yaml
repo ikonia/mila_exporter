@@ -1,0 +1,9 @@
+# Mila Air Exporter Web Configuration Example
+# Enable HTTPS and basic authentication
+
+tls_server:
+  cert_file: "/path/to/server.crt"
+  key_file: "/path/to/server.key"
+
+basic_auth_users:
+  prometheus: "your-password"

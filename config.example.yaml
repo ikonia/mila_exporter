@@ -1,0 +1,24 @@
+# Mila Air Exporter Configuration Example
+# Copy this file to config.yaml and fill in your Mila credentials
+
+# Mila API credentials
+mila:
+  email: "your-email@example.com"
+  password: "your-password"
+  unit_id: "your-unit-id"
+
+# Server settings
+server:
+  # Address and port to listen on
+  listen_address: ":9100"
+
+  # Path to web config file (optional, for TLS configuration)
+  # web_config: "/path/to/web-config.yml"
+
+  # Path to metrics endpoint
+  metrics_path: "/metrics"
+
+# Logging
+logging:
+  level: "info"
+  format: "logfmt"

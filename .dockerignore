@@ -1,0 +1,25 @@
+# Git files
+.git
+.gitignore
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and documentation files (not needed in image)
+*_test.go
+*.md
+LICENSE
+Makefile
+
+# Temporary files
+tmp/
+temp/
+*.log
